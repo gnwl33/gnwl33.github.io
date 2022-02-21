@@ -3,7 +3,8 @@
     $body = $('body'),
     $header = $('#header'),
     $banner = $('#banner');
-  $cta = $('#cta');
+    $cta = $('#cta');
+    $cta2 = $('#cta2');
 
   // Breakpoints.
   breakpoints({
@@ -22,6 +23,9 @@
     window.setTimeout(function () {
       $cta.removeClass('hide');
     }, 1450);
+    window.setTimeout(function () {
+      $cta2.removeClass('hide');
+    }, 1600)
   });
 
   // Header.
