@@ -22,10 +22,8 @@
     }, 100);
     window.setTimeout(function () {
       $cta.removeClass('hide');
-    }, 1450);
-    window.setTimeout(function () {
       $cta2.removeClass('hide');
-    }, 1600)
+    }, 1450);
   });
 
   // Header.
